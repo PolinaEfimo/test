@@ -19,7 +19,7 @@ def change_color(event):
   color = colors[combobox.current()]
   canvas.config(bg=color)
 
-# виджет со списком
+'''виджет со списком'''
 var = StringVar()
 combobox = ttk.Combobox(window, values=colors, width=10, textvariable=var)
 combobox['values'] = colors
