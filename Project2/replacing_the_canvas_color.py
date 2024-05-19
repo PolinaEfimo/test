@@ -1,15 +1,16 @@
 import tkinter as tk
 
+'''Функция выбора цвета'''
 def change_bg_color():
     color = entry.get()
     canvas.config(bg=color)
 
-
+'''Функция очистки поля entry'''
 def clear():
   entry.delete(0,'end')
 
 
-
+'''Интерфейс'''
 
 root = tk.Tk()
 root.geometry('300x300')
